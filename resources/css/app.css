@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-nav .nav-item .btn {
+    font-weight: bold;
+    border-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item .btn:hover {
+    background-color: #007bff; /* Niebieski dla primary */
+    color: white;
+}
+
+.navbar-nav .nav-item .btn-outline-success:hover {
+    background-color: #28a745; /* Zielony dla success */
+    color: white;
+}
